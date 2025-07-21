@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    padding: 0;
+}
+
+.brand{
+    font-size: 60px;
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav{
+    font-size: 20px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#list{
+    background-color: rgb(100, 0, 0);
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    width: 5rem;
+    height: 1rem;
+
+}
+#container1{
+    border: 3px;
+}
+#container2{
+    display: flex;
+}
+
+
+.testimonial{
+    display: flex;
+    border-radius: 20px;
+    background-color: aqua;
+    flex-shrink: 50;
+    
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    justify-self: center;
+    align-self: center;
+    flex-direction: ;
+}
+
+figcaption{
+    justify-self: center;
+    align-self: center;
+}
+blockquote{
+    justify-self: center;
+    align-self: center;
+}

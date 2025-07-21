@@ -50,17 +50,17 @@ nav{
 .testimonial{
     display: flex;
     border-radius: 20px;
-    background-color: aqua;
-    flex-shrink: 50;
-    
+    background-color: grey;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
 }
 
 footer{
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    justify-self: center;
+    justify-self: baseline;
     align-self: center;
-    flex-direction: ;
 }
 
 figcaption{
